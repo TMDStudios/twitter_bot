@@ -1,5 +1,5 @@
 # twitter_bot
-This is a simple twitter bot that pulls three tweets using a randomly chosen hashtag and retweets them every two minutes
+This is a simple twitter bot that pulls three tweets using a randomly chosen hashtag and retweets them every hour
 
 You can see it in action here: https://twitter.com/PythonRoboto
 
