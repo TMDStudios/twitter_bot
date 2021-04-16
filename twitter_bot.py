@@ -28,7 +28,7 @@ class Bot:
                 print(f'TIME: {datetime.now().strftime("%H:%M:%S")}')
                 print(tweet.text)
                 tweet.retweet()
-                time.sleep(120)
+                time.sleep(3600)  # there are 3600 seconds in one hour
             except tweepy.TweepError as e:
                 print(e.reason)
             except StopIteration:
